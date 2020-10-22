@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageCar"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/car_logo" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/imageCar">
+
+            <TextView
+                android:id="@+id/maintextCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                android:padding="4dp"
+                android:text="BMW"
+                android:textColorHint="@color/whiteNew"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tipoCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/maintextCar"
+                android:layout_alignParentStart="true"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:paddingStart="4dp"
+                android:text="Serie 1"
+                android:textColorHint="@color/whiteNew"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/anofabricoCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/matriculaCar"
+                android:layout_alignParentEnd="true"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:paddingEnd="8dp"
+                android:text="02/20"
+                android:textColorHint="@color/whiteNew"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/matriculaCar"
+                android:textColorHint="@color/whiteNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:padding="8dp"
+                android:text="XX-88-II" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

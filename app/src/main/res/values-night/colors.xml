@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="toolbar">#000000</color>
+    <color name="lightblue">#CEE3E2</color>
+    <color name="black">#FFFF</color>
+    <color name="grey">#FEFCFC</color>
+    <color name="red">#911616</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteNew">#FFFFFF</color>
+    <color name="blackNew">#000000</color>
+    <color name="bottom">#4F4F4F</color>
+    <color name="mapa">#000</color>
+</resources>

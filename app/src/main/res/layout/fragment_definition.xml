@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="pt.ulusofona.ecati.deisi.licenciatura.cm1920.grupo4.ui.fragment.DefinitionFragment">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/settings_text"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/darkmodeswitch"
+            android:layout_width="match_parent"
+            android:switchMinWidth="55dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_settings"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/colorPrimary"
+            android:padding="8dp"
+            android:paddingStart="4dp"
+            android:text="@string/darkMode"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:thumbTint="@color/colorPrimary"
+            android:trackTint="@color/colorPrimary" />
+
+
+        <Switch
+            android:id="@+id/darkmodeContextoSwitch"
+            android:switchMinWidth="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_settings"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/colorPrimary"
+            android:padding="8dp"
+            android:paddingStart="4dp"
+            android:text="@string/switch2"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:thumbTint="@color/colorPrimary"
+            android:trackTint="@color/colorPrimary" />
+
+
+        <Switch
+            android:id="@+id/shakeSwitch"
+            android:switchMinWidth="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_settings"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="4dp"
+            android:padding="8dp"
+            android:paddingStart="4dp"
+            android:text="@string/switch1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:thumbTint="@color/colorPrimary"
+            android:trackTint="@color/colorPrimary" />
+
+
+        <TextView
+            android:id="@+id/contactos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_contact"
+            android:drawableTint="@color/colorPrimary"
+            android:padding="8dp"
+            android:paddingStart="4dp"
+            android:text="@string/contactos"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:focusable="true" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

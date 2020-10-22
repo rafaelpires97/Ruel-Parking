@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    android:background="@color/red">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/image_parque"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/parque_estrutura_icon" />
+
+        <RelativeLayout
+            android:layout_width="800dp"
+            android:layout_height="92dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="52dp">
+
+
+            <TextView
+                android:id="@+id/nameparque_id"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="151dp"
+                android:layout_marginBottom="5dp"
+                android:text="Campo Grande"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tipo_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameparque_id"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:maxLines="1"
+                android:paddingStart="8dp"
+                android:paddingTop="12dp"
+                android:text="@string/tipo"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+
+                android:layout_marginBottom="31dp"
+                android:layout_toEndOf="@+id/tipo_text"
+                android:text="@string/estrutura"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lotacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="391dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="34dp"
+                android:layout_toStartOf="@+id/distancia"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@string/lotacao"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lotacao_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="354dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="34dp"
+                android:layout_toStartOf="@+id/distancia"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@string/livre"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/distancia_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="33dp"
+                android:layout_toStartOf="@+id/distancia"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@string/distancia"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/distancia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:paddingTop="12dp"
+                android:text="X km"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/percentagem"
+                android:layout_width="46dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:paddingStart="8dp"
+                android:text="100%"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_led"
+                android:layout_width="700dp"
+                android:layout_height="15dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-4dp"
+                android:layout_marginBottom="1dp"
+                android:scaleType="fitXY"
+                android:layout_toEndOf="@id/percentagem"
+                android:src="@drawable/green" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

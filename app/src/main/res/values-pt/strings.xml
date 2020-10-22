@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Ruel Parking</string>
+
+    <string name="home">Página Principal</string>
+    <string name="meus_veiculos">Meus Veículos</string>
+    <string name="definicoes">Definições</string>
+    <string name="mapa">Mapa</string>
+    <string name="welcome">Bem Vindo à Ruel!</string>
+
+    <string name="distance_text">Distância:</string>
+    <string name="price_text">Preço:</string>
+    <string name="last_entrance_text">Última Entrada:</string>
+
+    <string name="settings_text">Definições:</string>
+    <string name="switch1">Modo de Abano Ligado:</string>
+    <string name="switch2">Modo Escuro com Contexto:</string>
+    <string name="linguagem_text">Linguagem:</string>
+
+    <string name="tipo">Tipo:</string>
+    <string name="lotacao">Lotação:</string>
+    <string name="distancia">Distância:</string>
+
+    <string name ="anofabrico">Ano de Fabrico:</string>
+    <string name ="matricula">Matricula:</string>
+    <string name ="modelo">Modelo:</string>
+    <string name ="marca">Marca:</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name ="ultimaEntrada">Ultíma Actualização:</string>
+    <string name="authors">Desenvolvido por Rafael Reto e Rui Prata</string>
+
+
+
+    <string name="darkMode">"Modo Escuro:"</string>
+    <string name="contactos"> Contactos</string>
+    <string name="precoTotal">" Preço Acumulado:"</string>
+    <string name="tempoTotal">" Tempo Acumulado:"</string>
+    <string name="filters">"Filtros"</string>
+    <string name="estrutura">"Estrutura"</string>
+    <string name="superficie">"Superficie"</string>
+    <string name="ocupacao">Ocupaçao</string>
+    <string name="ocupacao_ordenacao">"Ocupacao(ordenação)"</string>
+    <string name="decreasing">"Decrescente"</string>
+    <string name="increasing">"Crescente"</string>
+    <string name="distancia_ordenacao">"Distancia(ordenação)"</string>
+    <string name="close">"Fechar"</string>
+    <string name="reset_filter">"Abane o Dispositivo para dar reset aos Filtros"</string>
+    <string name="filter_reseted">Filtros Repostos</string>
+
+    <string name="inserir_historico">Inserir Histórico:</string>
+    <string name="Park">Parque:</string>
+    <string name="veiculo">Veículo:</string>
+    <string name="preco_hora">Preco/Hora:</string>
+    <string name="hora">Hora:</string>
+    <string name="dia">Dia:</string>
+    <string name="inserir_veiculo">Inserir Veículo:</string>
+    <string name="tipoParque">Tipo de Parque:</string>
+
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+
+
+    <string name="bateria_fraca">Bateria Fraca</string>
+    <string name="mudarparaNight">Mudar para Modo Escuro?</string>
+    <string name="conectado">Conectado</string>
+    <string name="disconectado">Sem Ligação à Internet: Dados poderão estar desvirtuados face à realidade</string>
+    <string name="sem_ligacao">"Sem Ligação à Internet: Dados poderão estar desvirtuados face à realidade"</string>
+
+    <string name="lotado">Lotado</string>
+    <string name="potencialmente_lotado">Potencialmente Lotado</string>
+    <string name="livre">Livre</string>
+
+    <string name="num_bikes">Número de Bicicletas:</string>
+    <string name="num_docas">Número de Docas:</string>
+
+    <string name="duas_variaveis">Não pode ordenar por duas variantes ao mesmo tempo</string>
+    <string name="lugares_ocupados">Lugares Ocupados:</string>
+    <string name="lugares_existentes">Lugares Existentes:</string>
+
+    <string name="click_to_go">(Clique Para Ir)</string>
+    <string name="clicked">Clicado</string>
+    <string name="ligar_localizacao"> Ligue a Localização Para utilizar o Park Me Now</string>
+    <string name="car_deleted"> Carro Apagado</string>
+    <string name="encarregado_protecao"> Encarregado de Proteçao de Dados/DPO</string>
+    <string name="provedoria"> Provedoria do Cliente EMEL</string>
+    <string name="veiculoRemovido">  Confirmaçao se o Veículo foi Removido</string>
+
+    <string name="veiculo_bloqueado"> Veículos Bloqueados</string>
+    <string name="parque_veiculo_removido"> Parque de Veículos Removidos</string>
+    <string name="Emel_Geral"> Geral Emel</string>
+    <string name="ponto_atendimento"> Pontos de Atendimento da Emel</string>
+    <string name="lojac_saldanha"> Loja do cidadao Saldanha</string>
+    <string name="lojac_Laranjeiras"> Loja do cidadao Laranjeiras</string>
+    <string name="telefone"> Telefone: 211163060 / Fax: 217813699</string>
+    <string name="horario"> Horário: Segunda a Sexta das 8:00 às 20:00</string>
+    <string name="horario_2">Sábado das 9:00 às 15:00</string>
+    <string name="contactar">Para nos contactar, utilize a área reservada dos clientes</string>
+    <string name="contactar_2">EMEL através de Área reservada do Site EMEL.</string>
+    <string name="morada">Morada: Rua Francisco Lyon de Castro sem número</string>
+
+    <string name="rebocar"> E-mail: parque.rebocados@emel.pt exclusivo para</string>
+    <string name="informacoes"> informações de veículos rebocados</string>
+    <string name="horario_limitado"> Horário limitado entre 8:00 e 20:00 durante o período</string>
+    <string name="excepcional"> excepcional Covid-19</string>
+    <string name="telefone2">Telefone: 217803131</string>
+    <string name="sms_gratuito">   SMS Gratuito para o número 3838, indicando-se a palavra </string>
+    <string name="reboque_seguida">Reboque seguida de um espaço e da matrícula do carro</string>
+    <string name="com_ou_sem">(Com ou sem traços entre os caracteres).MAI que reúne</string>
+    <string name="informacoes_sobre_veiculos">informaçoes sobre veículos rebocados.</string>
+    <string name="como_resposta">Como resposta, o sistema que é transversal a todas</string>
+    <string name="as_forças_de_seguranca">as forças de segurança, envia-lhe um SMS indicando</string>
+    <string name="se_o_carro_foi_removido">se o carro foi removido pela EMEL, Polícia Municipal</string>
+    <string name="de_lisboa">de Lisboa ou Polícia de Segurança Pública.</string>
+    <string name="editar_veiculo_string">Editar Veiculo</string>
+
+
+</resources>

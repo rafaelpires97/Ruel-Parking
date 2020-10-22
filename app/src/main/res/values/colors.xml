@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0000FF</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="toolbar">#4169E1</color>
+    <color name="lightblue">#CEE3E2</color>
+    <color name="black">#000000</color>
+    <color name="grey">#FEFCFC</color>
+    <color name="red">#911616</color>
+    <color name="redDelete">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteNew">#000</color>
+    <color name="blackNew">#FFFFFF</color>
+    <color name="bottom">#fafafa</color>
+    <color name="mapa">#000</color>
+</resources>

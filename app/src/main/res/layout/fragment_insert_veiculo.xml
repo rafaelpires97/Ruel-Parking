@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/veiculo_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/inserir_veiculo_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/inserir_veiculo"
+                android:textSize="24dp"
+                android:paddingBottom="10dp"
+                android:layout_alignParentTop="true"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/inserir_foto_veiculo"
+                android:layout_below="@id/inserir_veiculo_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="10dp"
+                android:src="@drawable/car_logo"
+                android:onClick="insertFoto"
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marca"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/marca_info_car"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="BMW"
+                android:inputType="textPersonName"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modelo"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/modelo_info_car"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Serie 1"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/matricula"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/matricula_info_car"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="03-XX-09"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anofabrico"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/data_info_car"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="03/09/2000"
+                android:inputType="date" />
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_vehicle_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_edit_24"
+            app:backgroundTint="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+</ScrollView>

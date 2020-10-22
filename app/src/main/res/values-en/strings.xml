@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Ruel Parking</string>
+
+    <string name="home">Home</string>
+    <string name="meus_veiculos">My Vehicles</string>
+    <string name="definicoes">Settings</string>
+    <string name="mapa">Map</string>
+    <string name="welcome">Welcome to Ruel!</string>
+
+    <string name="distance_text">Distance:</string>
+    <string name="price_text">Price:</string>
+    <string name="last_entrance_text">Last Entrance:</string>
+
+    <string name="settings_text">Settings:</string>
+    <string name="switch1">Shake Mode On:</string>
+    <string name="switch2">DarkMode with Context</string>
+    <string name="linguagem_text">Language:</string>
+
+    <string name="tipo">Type:</string>
+    <string name="lotacao">Capacity:</string>
+    <string name="distancia">Distance:</string>
+
+    <string name ="anofabrico">Year of Manufacture:</string>
+    <string name ="matricula">Registration:</string>
+    <string name ="modelo">Model:</string>
+    <string name ="marca">Brand:</string>
+    <string name="title_activity_maps">Map</string>
+    <string name ="ultimaEntrada">Last Updated:</string>
+    <string name="authors">Developed by Rafael Reto and Rui Prata</string>
+
+    <string name="darkMode">"Dark Mode:"</string>
+    <string name="contactos"> Contacts</string>
+    <string name="precoTotal">" Accumulated Price:"</string>
+    <string name="tempoTotal">" Accumulated Time: "</string>
+    <string name="filters">"Filters "</string>
+    <string name="estrutura">"Structure "</string>
+    <string name="superficie">"Surface "</string>
+    <string name="ocupacao">"Occupation "</string>
+    <string name="ocupacao_ordenacao">"Occupation(sort) "</string>
+    <string name="decreasing">"Decreasing "</string>
+    <string name="increasing">"Increasing "</string>
+    <string name="distancia_ordenacao">"Distance(sort) "</string>
+    <string name="close">"Close "</string>
+    <string name="reset_filter">"Shake your Phone to reset Filters "</string>
+    <string name="filter_reseted">Filters Reseted</string>
+
+    <string name="inserir_historico">Insert History:</string>
+    <string name="Park">Park:</string>
+    <string name="veiculo">Vehicle:</string>
+    <string name="preco_hora">Price p/hour:</string>
+    <string name="hora">Hour:</string>
+    <string name="dia">Day:</string>
+    <string name="inserir_veiculo">Insert Vehicle:</string>
+    <string name="tipoParque">Park Type:</string>
+
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+
+
+    <string name="bateria_fraca">Low Battery</string>
+    <string name="mudarparaNight">Change to Dark Mode?</string>
+    <string name="conectado">Connected</string>
+    <string name="disconectado">Disconnected</string>
+    <string name="sem_ligacao">Without Internet Connection: Data may be distorted in face of reality </string>
+
+    <string name="lotado">Full</string>
+    <string name="potencialmente_lotado">Potentially Full</string>
+    <string name="livre">Free</string>
+
+    <string name="num_bikes">Number of Bikes:</string>
+    <string name="num_docas">Number of docks:</string>
+    <string name="duas_variaveis">You cannot sort by two variants at the same time</string>
+    <string name="lugares_ocupados">Occupied places :</string>
+    <string name="lugares_existentes">Existing places :</string>
+    <string name="click_to_go">(Click To Go)</string>
+    <string name="clicked">Clicked</string>
+    <string name="ligar_localizacao"> Connect Location To use Park Me Now</string>
+    <string name="car_deleted"> Car Deleted</string>
+    <string name="encarregado_protecao"> Data Protection Officer / DPO</string>
+    <string name="provedoria"> Emel customer ombudsman</string>
+    <string name="veiculoRemovido">Confirmation of removed vehicle</string>
+    <string name="veiculo_bloqueado"> Blocked Vehicles</string>
+    <string name="parque_veiculo_removido"> Vehicle Park Removed</string>
+    <string name="Emel_Geral"> Emel General</string>
+    <string name="ponto_atendimento"> Emel Service Points</string>
+    <string name="lojac_saldanha"> Saldanha citizen\'s shop</string>
+    <string name="lojac_Laranjeiras"> Laranjeiras citizen\'s shop</string>
+    <string name="telefone"> Phone: 211163060 / Fax: 217813699</string>
+    <string name="horario"> Hours: Monday to Friday from 8:00 am to 8:00 pm</string>
+    <string name="horario_2">Saturday from 9:00 to 15:00</string>
+    <string name="contactar">To contact us, use the customer\'s reserved area</string>
+    <string name="contactar_2">EMEL through the reserved area of ​​the EMEL Site.</string>
+    <string name="morada">Address: Rua Francisco Lyon de Castro without number</string>
+    <string name="rebocar"> E-mail: parque.rebocados@emel.pt exclusive to</string>
+    <string name="informacoes"> towed vehicle information</string>
+    <string name="horario_limitado"> Limited hours between 8:00 am and 8:00 pm during the period</string>
+    <string name="excepcional"> exceptional Covid-19</string>
+    <string name="telefone2">Phone: 217803131</string>
+    <string name="sms_gratuito">   Free SMS to the number 3838, indicating the word </string>
+    <string name="reboque_seguida">Trailer followed by a space and the license plate</string>
+    <string name="com_ou_sem">(With or without dashes between the characters). MAI that gathers</string>
+    <string name="informacoes_sobre_veiculos">information on towed vehicles.</string>
+    <string name="como_resposta">In response, the system that is transversal to all</string>
+    <string name="as_forças_de_seguranca">security forces, send you an SMS indicating</string>
+    <string name="se_o_carro_foi_removido">if the car was removed by EMEL, Municipal Police</string>
+    <string name="de_lisboa">of Lisbon or the Public Security Police.</string>
+    <string name="editar_veiculo_string">Edit Vehicle</string>
+
+
+</resources>
